@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/paper" >
+
+<LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+        
+        
+        android:id="@+id/my_vertical_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+        
+        <ImageView
+            android:id="@+id/imageViewBourbon"
+            android:layout_width="136dp"
+            android:layout_height="203dp"
+            android:src="@drawable/bourbon1" />
+        
+        <TextView
+            android:id="@+id/text_viewerBourbon"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:maxLines="100"
+            android:scrollbars="vertical"
+            android:text="@string/bourbon"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" 
+            android:singleLine="false" />
+    
+		 
+		 
+</LinearLayout>	
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+        
+        
+        android:id="@+id/my_vertical_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+        
+        <ImageView
+        android:id="@+id/imageViewBurg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/burg2color" />
+        
+        <TextView 
+        	android:id="@+id/text_viewerBurg"
+        	android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:text="@string/burg" 
+            android:textSize="25sp" 
+            android:maxLines = "1000000"
+            android:scrollbars = "vertical"
+		/>
+
+		 
+</LinearLayout>	
+</ScrollView>

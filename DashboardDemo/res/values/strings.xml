@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="hello">Choose one of the features below.</string>
+
+    <string name="app_name">Revolutionary War Trivia</string>
+    <string name="description_logo">Demo</string>
+
+    <string name="description_about">About</string>
+    <string name="description_home">Home</string>
+    <string name="description_search">Search</string>
+    <string name="description_feature2">Feature 2</string>
+    <string name="description_feature3">Feature 3</string>
+    <string name="description_feature4">Feature 4</string>
+    <string name="description_feature5">Feature 5</string>
+    <string name="description_feature6">Feature 6</string>
+
+    <string name="title_about">About</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_feature2">Quiz</string>
+    <string name="title_feature3">People</string>
+    <string name="title_feature4">Places</string>
+    <string name="title_feature5">Weapons</string>
+    <string name="title_feature6">Quotes</string>
+
+    <string name="default_intro">This is the default content view for an activity. Be sure to change your activity\'s onCreate method. Use setContentView on a custom layout.</string>
+    <string name="feature2_intro">Feature 2 content goes here.</string>
+    <string name="feature3_intro">Feature 3 content goes here.</string>
+    <string name="feature4_intro">Feature 4 content goes here.</string>
+    <string name="feature5_intro">Feature 5 content goes here.</string>
+    <string name="feature6_intro">Feature 6 content goes here.</string>
+
+    <string name="about_intro">This app is a demo to show you how to do an Android app based on the Dashboard pattern that has been used in apps like Twitter, Google IO, and Evernote.</string>
+    <string name="search_intro">Content for the Search page goes here.</string>
+    
+    <!-- american figure summaries -->
+ 
+    
+     <string name="arnold">
+     \n\n     Benedict Arnold was born on January 14th, 1741 in the bustling Noriwch, Connecticut to Hannah Walterman King and Benedict Arnold. He was one of the only two children from Arnold and King marriage to survive into adulthood, the other being his sister, Hannah. Sadly the other children succumbed to various illnesses such as yellow fever and died at young ages. As a boy Arnold\'s family became moderately wealthy and sent their son to private schools afforded him a good well rounded education, learning a touch of Latin and writing very well. Arnold was also known for his ability to make impulse decisions for good and bad, sometimes going against his parents best wishes. This was evidenced when at the age of 15 Arnold ran away from home and joined the Connecticut army to counteract the French invasion that would take place at Lake George. Eventually becoming tired of the fight, Arnold deserted the Connecticut army, grew up and matured.  
+     \n     At adulthood he moved to New Haven, Connecticut and began to work as a bookseller and druggist. During this time Arnold also obtained large portions of property and occasionlly partook in trades with the West Indies. In 1775 when the battle of Lexington and Concord reached Arnold\'s doorstep in New Haven he was appointed control of roughly 400 men and received orders to march on Fort Ticonderoga. Joining General Montgomery, Horatio Gates, and others, Arnold fought for the fort and succeeded in taking by May 10th 1775. After the battle everyone was thrilled with the capture of the fort and on February 19, 1777 George Washington named five new generals to the Continental army. Arnold, at the time a brigadier-general, was passed over in these promotions.
+     \n     In January of 1778 Arnold suffered a bad leg wound in the Battle of Quebec and was assinged by Washington to look after the city of Philidelphia. In his time in there Arnold got into many quarrels with several generals and started to associate with Tory sympathizers (Americans who supported the British during the American Revolution).\n\n     In July of 1780 Arnold directly sought control of the prestigious military school West Point. Then he proceeded to hand it over to the British. However, the capture of Major John Andre of the British Army by the Americans voided Arnold\'s plans. Hearing of this news Arnold quickly fled to the British in New York and ironically was handed a position of brigadier-general. From this moment on Arnold was considered by most Americans to be a traitor to his country and any mention of his name meant treason.\n\n     As for Arnold himself, he moved to London and was involved in the mercantile business. He died in 1792 when he lost a duel to the Earl of Landerdale over a comment that the Earl made about him in the House of Lords. </string>
+    
+    <string name="clinton">
+     \n\n    James Clinton was born on August 9th, 1736 in Ulster County New York and was the fourth son of Colonel Charles Clinton. He came from a long line of notable family members who either had prominent positions in government or the army. His grandfather James Clinton served in Oliver Cromwell's New Model Army in the English Civil War, his brother George went on to serve as governor of New York and vice president of the United States from 1805-1812.
+     \n\n    As a young man he had a keen interest in weapons and knowing how to defend himself against potential Indian attacks. This kind of upbringing and know how was only natural considering his family history.
+     \n\n    By 1758 with French and Indian War in full swing, Clinton, who was now 21 years of age, fought along side his father and brother in an effort to help take Fort Frontenac. In this battle James and George were able to combine their skills to capture a French vessel. By the end of the French and Indian War in 1763 James Clinton had become a captain in the army(1759), and had roughly 200 men under his command.\n\n     Shortly after the war ended Clinton married Mary Dewitt and in 1769 would have a child by the name of DeWitt Clinton. The boy would go on to become the Governer of New York and also a United States senator. With war over for the moment Clinton took up farming and stuck true to his beliefs in personal liberties.\n\n    Throughout the next years Clinton would begin to participate in the war for independence, fighting in various battles including the battle of Quebec, which was ultimately a retreating effort under General Montgomery. In 1777, Clinton now a brigadier general took part in the Saratoga Campaign to thwart the plans of the British and General John Burgoyne. 
+      </string>
+    
+    <string name="gates">
+    horatio Gates here </string>
+    
+    <string name="greene">
+    nathaniel greene HERE </string>
+    
+  
+    
+    <string name="rohowe">
+    robert howe HERE </string>
+    
+    <string name="knox">
+    henry knox HERE </string>
+    
+    <string name="lee">
+    charles lee HERE </string>
+    
+    <string name="linc">
+    benjamin lincoln HERE </string>
+    
+    <string name="mar">
+    francis marion HERE </string>
+    
+    <string name="monty">
+    richard montgomery HERE </string>
+    
+    <string name="revere">
+    paul revere HERE </string>
+    
+    <string name="shu">
+    philip shuyler HERE </string>
+   
+    
+    <string name="sull">
+    john sullivan HERE </string>
+    
+    <string name="sumt">
+    thomas sumter HERE </string>
+    
+    <string name="thomas">
+    john thomas HERE </string>
+    
+    <string name="warren">
+    joseph warren HERE </string>
+    
+    <string name="wash">
+    george washington HERE </string>
+    
+    <!-- British military figures -->
+    
+    <string name="george">
+    the king HERE </string>
+    <string name="amherst">
+    sir jeffrey amherst HERE </string>
+    <string name="conway">
+    henry conway HERE </string>
+    <string name="gage">
+    thomas gage HERE </string>
+    <string name="hclinton">
+    sir henry clinton HERE </string>
+ 
+    <string name="whowe">
+    william howe HERE </string>
+    <string name="boyd">
+    sir robert boyd HERE </string>
+    <string name="arb">
+    mariot abuthnot HERE </string>
+    <string name="burg">
+    john burgoyne HERE </string>
+   
+    <string name="corn">
+    charles cornwallis HERE </string>
+    <string name="graves">
+    samuel graves HERE </string>
+    <string name="faw">
+    sir william fawcett HERE </string>
+
+    <string name="green">
+    william green HERE </string>
+    <string name="hald">
+    fredrick haldimand HERE </string>
+    <string name="phill">
+    william philips HERE </string>
+    <string name="rihowe">
+    richard howe HERE </string>
+    
+    
+    <!-- French military figures -->
+    <string name="louis">
+     king louis XVI </string>
+    
+    <string name="gravier">
+     charles gravier </string>
+    <string name="sart">
+     antoine de sartine </string>
+    <string name="lafy">
+     lafayette </string>
+    <string name="bourbon">
+     bourbon </string>
+    <string name="hector">
+     charles hector comte </string>
+    <string name="grasse">
+     paul de grasse </string>
+    <string name="vim">
+     de vimuer </string>
+     
+    
+
+</resources>

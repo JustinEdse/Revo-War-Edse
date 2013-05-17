@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+        
+        
+        android:id="@+id/my_vertical_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+        
+        <ImageView
+        android:id="@+id/imageViewPhillips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/phill" />
+        
+        <TextView 
+        	android:id="@+id/text_viewerPhillips"
+        	android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:text="@string/phill" 
+            android:textSize="25sp" 
+            android:maxLines = "1000000"
+            android:scrollbars = "vertical"
+		/>
+
+		 
+</LinearLayout>	
+</ScrollView>

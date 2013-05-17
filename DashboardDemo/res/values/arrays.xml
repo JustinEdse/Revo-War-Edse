@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>  
+    <resources>  
+     <array name="amerArray">  
+    <item>George Washington</item>  
+    <item>Horatio Gates</item>  
+    <item>Nathaniel Greene</item>  
+    <item>William Alexander</item> 
+    <item>Henry Knox</item> 
+    <item>Charles Lee</item>
+    <item>Benjamin Lincoln</item>
+    <item>James Clinton</item>
+    <item>Richard Montgomery</item>
+    <item>Philip Schuyler</item>
+    <item>Robert Howe</item>
+    <item>Edward Hand</item>
+    <item>John Sullivan</item>
+    <item>Adam Stephen</item>
+    <item>John Thomas</item>
+    <item>Jospeh Warren</item>
+    <item>Paul Revere</item>
+    <item>Thomas Sumter</item>
+    <item>Francis Marion</item>
+    <item>Benedict Arnold</item>  
+     </array>
+     
+     <array name="britArray">
+      <item>King George III</item>  
+    <item>Sir Jeffrey Amherst</item>  
+    <item>Henry Conway</item>  
+    <item>Thomas Gage</item>  
+    <item>Sir Henry Clinton</item>
+    <item>Sir Guy Carleton</item>  
+    <item>William Howe</item>
+    <item>Sir Robert Boyd</item>
+    <item>Mariot Arbuthnot</item>
+    <item>John Burgoyne</item>
+    <item>Archibald Campbell</item>
+    <item>Charles Cornwallis</item>
+    <item>Samuel Graves</item>
+    <item>Sir William Fawcett</item>
+    <item>Sir Charles Douglas</item>
+    <item>Sir William Green</item>
+    <item>Fredrick Haldimand</item>
+    <item>William Philips</item>
+    <item>Richard Howe</item>
+     </array>
+     
+     <array name="frenchArray">
+      <item>King Louis XVI</item>  
+    <item>Charles Gravier</item>  
+    <item>Antoine de Sartine</item>  
+    <item>Marquis de Lafayette</item>
+    <item>Louis Jean Marie de Bourbon</item>  
+    <item>Francois-Jean de Beavior</item>  
+    <item>Charles Hector</item> 
+    <item>Charles Rene Dominique Sochet</item> 
+    <item>Francois Joepsh Paul de Grasse</item> 
+    <item>Claude Gabriel</item> 
+    <item>Jean-Baptiste Donatien de Vimeur</item> 
+     </array>
+     
+     
+     
+    
+    </resources>
