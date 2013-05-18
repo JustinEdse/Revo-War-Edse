@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>  
     <resources>  
+        
+    <array name="typeArray">
+        <item>Battles</item>
+        <item>American Figures</item>
+        <item>British Figures</item>
+        <item>French Figures</item>
+        <item>Weapons</item>
+        <item>Who Said it quotes</item>
+        <item>A Mix of Everything</item>
+    </array>
      <array name="amerArray">  
     <item>George Washington</item>  
     <item>Horatio Gates</item>  

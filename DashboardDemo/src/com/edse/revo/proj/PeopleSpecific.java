@@ -22,9 +22,7 @@ public class PeopleSpecific extends DashboardActivity
     private static final int AMERICAN = 0;
     private static final int BRITISH = 1;
     private static final int FRENCH = 2;
-    private static final int NATIVE = 3;
-    private static final int DUTCH = 4;
-    
+
     
 	private ListView listPeople;
 	private int selectedCountry = 0;
