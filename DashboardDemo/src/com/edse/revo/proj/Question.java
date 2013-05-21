@@ -13,8 +13,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.content.Context;
+import android.os.Parcel;
+import android.os.Parcelable;
 
-public class Question
+public class Question implements Parcelable
 {
 
 	private int timesSeen = 0;
@@ -22,7 +24,7 @@ public class Question
 	private String correctAnswer = null;
 	private String questionWords = null;
 	private String explain = null;
-	private String answers[] = new String[5];
+	private String[] answers = new String[5];
 	private static final String DATA_FILE_DIR = "questions";
 	private static final String DATA_FILE = "questiondata.txt";
 	private static final int ITEMS_PER_LINE = 3;
@@ -35,11 +37,12 @@ public class Question
 		this.questType = questType;
 		this.questionWords = questionWords;
 		this.answers = answers;
+		this.explain = explain;
 		this.correctAnswer = correctAnswer;
 		timesSeen = 0;
 	}
 	
-	public String getQuestNum()
+	public String getQuestType()
 	{
 		return questType;
 	}
@@ -168,8 +171,51 @@ public class Question
     public @Override String toString()
     {
     
-		return this.questNum + " " + this.questionWords + "\n" + this.answers[0] + "\n" + this.answers[1] + "\n" +
+		return this.questType+ " " + this.questionWords + "\n" + this.answers[0] + "\n" + this.answers[1] + "\n" +
           this.answers[2] + this.answers[3];
     	
     }
+
+	@Override
+	public int describeContents()
+	{
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void writeToParcel(Parcel destination, int flag)
+	{
+		
+		destination.writeString(questType);
+		destination.writeString(questionWords);
+		destination.writeString(explain);
+		destination.writeStringArray(answers);
+		destination.writeString(correctAnswer);
+		
+		
+		
+	}
+	
+	@SuppressWarnings({"rawtypes"})
+	public static final Parcelable.Creator CREATOR = new Parcelable.Creator()
+	{
+		public Question createFromParcel(Parcel in)
+		{
+			return new Question(in);
+		}
+		public Question[] newArray(int size)
+		{
+			return new Question[size];
+		}
+	};
+	
+	public Question(Parcel in)
+	{
+		
+		this.questType = in.readString();
+		this.questionWords = in.readString();
+		this.explain = in.readString();
+		in.readStringArray(this.answers);
+	}
 }

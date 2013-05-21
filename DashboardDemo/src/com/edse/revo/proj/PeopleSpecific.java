@@ -86,6 +86,7 @@ public class PeopleSpecific extends DashboardActivity
 			goToDescription.putExtra("person", selectedPerson);
 			goToDescription.putExtra("origin", homeCountry);
 			goToDescription.putExtra("integer", selectedInteger);
+			startActivity(goToDescription);
 				
 			
 			

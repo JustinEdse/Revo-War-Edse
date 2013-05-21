@@ -62,6 +62,7 @@ protected void onCreate(Bundle savedInstanceState)
 			 //go to specific people activity
 			 Intent goToPeople = new Intent(PeopleActivity.this.getApplicationContext(), PeopleSpecific.class);
 			 goToPeople.putExtra("country", selectedCountry);
+			 startActivity(goToPeople);
 				
 			
 		 

@@ -29,7 +29,7 @@ public class QuizActivity extends DashboardActivity
 {
 
 	private List<Question> activeQuestions = null;
-	private List<Question> questionBank = null;
+	private static List<Question> questionBank = null;
 	private enum WantedType {Battles, American, British, French, Weapons, Quotes, Mix};
 	private String questionsAskedFor = null;
 	private ListView choices;
@@ -144,6 +144,14 @@ protected void onCreate(Bundle savedInstanceState)
   	}
     });
     
+	activeQuestions = QuizActivity.specificQuestions(questionsAskedFor);
+	
+	//start the in-game portion of the quiz. Start an intent and take the array list over to the InGameActivity.
+	 
+	 Intent goToInGame = new Intent(QuizActivity.this.getApplicationContext(), InGameActivity.class);
+	 goToInGame.putParcelableArrayListExtra("activequestions", activeQuestions);
+	 startActivity(goToInGame);
+	
 	
 	
 	    ////////////////////////////////////////////////////////////////////////
@@ -155,7 +163,15 @@ protected void onCreate(Bundle savedInstanceState)
 		List<Question> specQuest = new ArrayList<Question>();
 		//copy all types matching askedFor from question bank to temp specQuest.
 		//shouldn't be too hard. check for each entry in question bank, copy over....
-		return new ArrayList<Question>();
+		
+		for (Question quest: questionBank)
+		{
+			if(quest.getQuestType().equals(askedFor))
+			{
+				specQuest.add(quest);
+			}
+		}
+		return specQuest;
 	}
     
 } // end class
